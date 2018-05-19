@@ -1,0 +1,48 @@
+Grades for version committed on time
+	length: 10.0 / 10
+			*Passed test: 0x0
+			*Passed test: 0x0 (evil)
+			*Passed test: 0x1
+			*Passed test: 0x1 (evil)
+			*Passed test: 0x2
+			*Passed test: 0x2 (evil)
+			*Passed test: 0x7
+			*Passed test: 0x7 (evil)
+			*Passed test: 0x4D0
+			*Passed test: 0x4D0 (evil)
+			*Passed test: 0xD
+			*Passed test: 0xD (evil)
+			*Passed test: 0xBADF00D
+			*Passed test: 0xBADF00D (evil)
+			*Passed test: 0x0FF1CE
+			*Passed test: 0x0FF1CE (evil)
+			*Failed test: 0xFFFFFFFF (extra credit)
+				*Your output: 0 
+			*Failed test: 0xFFFFFFFF (extra credit, evil)
+				*Your output: 0 
+			*Failed test: 0xA0000000 (extra credit)
+				*Your output: 0 
+			*Failed test: 0xA0000000 (extra credit, evil)
+				*Your output: 0 
+		
+	str_cmp: 10.0 / 10
+			*Passed test: str_cmp("", "")
+			*Passed test: str_cmp("", "") (evil)
+			*Passed test: str_cmp("a", "")
+			*Passed test: str_cmp("a", "")
+			*Passed test: str_cmp("ab", "ab")
+			*Passed test: str_cmp("ab", "ab") (evil)
+			*Passed test: str_cmp("", "b")
+			*Passed test: str_cmp("", "b") (evil)
+			*Passed test: str_cmp("this is a string!", "this is a string!")
+			*Passed test: str_cmp("this is a string!", "this is a string!") (evil)
+			*Passed test: str_cmp("fun x y -> x +. y", "fun x -> fun y -> x +. y")
+			*Passed test: str_cmp("fun x y -> x +. y", "fun x -> fun y -> x +. y") (evil)
+			*Passed test: str_cmp("!@#$%^&*()_+", "!@#$%^&*()_+")
+			*Passed test: str_cmp("!@#$%^&*()_+", "!@#$%^&*()_+") (evil)
+			*Passed test: str_cmp("code lyoko", "we'll reset it all")
+			*Passed test: str_cmp("code lyoko", "we'll reset it all") (evil)
+		
+Total: 20.0 / 20
+
+Final Score: 20.0 / 20

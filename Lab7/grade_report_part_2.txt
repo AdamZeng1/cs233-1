@@ -1,0 +1,52 @@
+Grades for version committed on time
+	crc_encoding: 20.0 / 40
+			*Passed test: crc_encoding(0x9a, 0xd)
+			*Failed test: crc_encoding(0x9a, 0xd) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0x434, 0x11)
+			*Failed test: crc_encoding(0x434, 0x11) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0xDEAD, 0xBAAD)
+			*Failed test: crc_encoding(0xDEAD, 0xBAAD) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0x0, 0x0)
+			*Failed test: crc_encoding(0x0, 0x0) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0xF00D, 0x0)
+			*Failed test: crc_encoding(0xF00D, 0x0) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0x0, 0x1234)
+			*Failed test: crc_encoding(0x0, 0x1234) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0x87654321, 0x87654321)
+			*Failed test: crc_encoding(0x87654321, 0x87654321) (evil)
+				*Timed out
+			*Passed test: crc_encoding(0xFFFF0000, 0x0000FFFF)
+			*Failed test: crc_encoding(0xFFFF0000, 0x0000FFFF) (evil)
+				*Timed out
+		
+	in_dict: 40.0 / 40
+			*Passed test: "", dict_1
+			*Passed test: "", dict_1 (evil)
+			*Passed test: "c", dict_1
+			*Passed test: "c", dict_1 (evil)
+			*Passed test: "a", dict_1
+			*Passed test: "a", dict_1 (evil)
+			*Passed test: "abc", dict_1
+			*Passed test: "abc", dict_1 (evil)
+			*Passed test: "foo", dict_2
+			*Passed test: "foo", dict_2 (evil)
+			*Passed test: "bar", dict_2
+			*Passed test: "bar", dict_2 (evil)
+			*Passed test: "i'm in space", dict_2
+			*Passed test: "i'm in space", dict_2 (evil)
+			*Passed test: "something", dict_2
+			*Passed test: "something", dict_2 (evil)
+			*Passed test: "this was a triumph", dict_2
+			*Passed test: "this was a triumph", dict_2 (evil)
+			*Passed test: negative dict_size
+			*Passed test: negative dict_size (evil)
+		
+Total: 60.0 / 80
+
+Final Score: 60.0 / 80

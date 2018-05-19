@@ -1,0 +1,20 @@
+Grades for version committed on time
+	decoder: 17.89 / 20.0
+			*Partially passed test: invalid (writeenable wrong)
+			*Passed test: add
+			*Passed test: addi
+			*Passed test: sub
+			*Partially passed test: invalid (writeenable wrong)
+			*Passed test: and
+			*Partially passed test: invalid (writeenable wrong)
+			*Passed test: andi
+			*Passed test: or
+			*Passed test: ori
+			*Passed test: nor
+			*Partially passed test: invalid (writeenable wrong)
+			*Passed test: xor
+			*Passed test: xori
+		
+Total: 17.89 / 20.0
+
+Final Score: 17.89 / 20.0
